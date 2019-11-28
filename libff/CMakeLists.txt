@@ -22,7 +22,7 @@ endif()
 
 add_library(
   ff
-  STATIC
+  SHARED
 
   algebra/curves/alt_bn128/alt_bn128_g1.cpp
   algebra/curves/alt_bn128/alt_bn128_g2.cpp
